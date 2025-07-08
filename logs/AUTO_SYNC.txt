@@ -1,0 +1,4130 @@
+Category: Backup
+Start Time: 2024-12-26 20:20:20.592042
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12513570 bytes
+End Time: 2024-12-26 20:20:20.592042
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-26 20:22:26.398048
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12513570 bytes
+End Time: 2024-12-26 20:22:26.398048
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-26 20:23:59.612888
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12513570 bytes
+End Time: 2024-12-26 20:23:59.612888
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 15:59:35.462834
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 15:59:35.462834
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 15:59:43.275643
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 15:59:43.275643
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 15:59:43.810644
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 15:59:43.810644
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 15:59:44.251645
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 15:59:44.251645
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 15:59:44.622645
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 15:59:44.622645
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 15:59:44.987645
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 15:59:44.987645
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 15:59:45.321646
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 15:59:45.321646
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 15:59:45.694688
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 15:59:45.694688
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 16:06:24.950562
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 16:06:24.950562
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 16:11:44.032173
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 16:11:44.032173
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 16:12:28.453263
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 16:12:28.453263
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 16:14:23.479247
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 16:14:23.479247
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 16:17:42.103165
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 16:17:42.103165
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 16:18:11.152727
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 16:18:11.152727
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 16:20:27.473065
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 16:20:27.473065
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:41:08.221187
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:41:08.222187
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:41:08.226184
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:41:08.226184
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:41:09.449342
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:41:09.449342
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:41:10.755263
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:41:10.755263
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:41:11.188098
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:41:11.188098
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:41:11.593923
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:41:11.593923
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:41:11.946395
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:41:11.946395
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:41:12.319946
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:41:12.319946
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:41:12.668066
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:41:12.668066
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:41:12.821067
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:41:12.821067
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:42:03.152295
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:42:03.152295
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:48:36.194472
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:48:36.194472
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:50:25.445851
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:50:25.445851
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:50:31.971018
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:50:31.971018
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:54:27.594340
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:54:27.594340
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 17:55:23.252949
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 17:55:23.252949
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:01:21.174245
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:01:21.174245
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:05:01.494004
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:05:01.495003
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:06:35.054548
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:06:35.054548
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:06:57.678703
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:06:57.678703
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:08:54.494858
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:08:54.494858
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:10:21.089329
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:10:21.089329
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:12:30.051764
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:12:30.051764
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:14:45.158450
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:14:45.158450
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:15:12.754516
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:15:12.754516
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:15:51.511957
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:15:51.511957
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:16:47.807201
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:16:47.807201
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:17:11.281952
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:17:11.281952
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:20:36.837888
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:20:36.837888
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:23:16.236916
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:23:16.236916
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:23:30.391852
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:23:30.391852
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:24:02.070440
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:24:02.070440
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:24:28.462732
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:24:28.462732
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:26:26.281987
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:26:26.281987
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:30:42.502951
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:30:42.502951
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 18:38:08.393711
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 18:38:08.393711
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:21.426235
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:21.426235
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:21.434333
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:21.434333
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:26.050018
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:26.050018
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:26.907663
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:26.907663
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:27.357090
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:27.357090
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:27.854303
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:27.854303
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:28.881122
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:28.881122
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:29.299323
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:29.299323
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:29.761017
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:29.761017
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:30.221474
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:30.221474
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:18:48.150202
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:18:48.150202
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:19:12.292045
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:19:12.292045
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:48:28.442767
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:48:28.442767
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:49:35.680809
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:49:35.680809
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:49:47.985952
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:49:47.985952
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:50:07.145509
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:50:07.145509
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:50:33.779592
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:50:33.779592
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:51:02.997867
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:51:02.997867
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:51:18.826770
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:51:18.826770
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:51:35.565446
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:51:35.565446
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:51:58.677524
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:51:58.677524
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:52:15.040539
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:52:15.041538
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:52:25.694950
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:52:25.694950
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:52:50.161764
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:52:50.161764
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:53:05.272104
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:53:05.272104
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:53:36.267441
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:53:36.267441
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:53:50.146583
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:53:50.146583
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:53:59.560446
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:53:59.561449
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:56:01.286803
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:56:01.286803
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:56:13.089702
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:56:13.089702
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:56:23.383670
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:56:23.383670
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:57:21.777487
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:57:21.777487
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:57:32.942645
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:57:32.942645
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:59:07.897801
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:59:07.897801
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 20:59:15.654124
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 20:59:15.654124
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:01:23.610676
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:01:23.610676
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:03:39.204204
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:03:39.204204
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:04:01.980511
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:04:01.980511
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:04:56.008501
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:04:56.008501
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:08:47.137453
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:08:47.137453
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:22:15.790553
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:22:15.790553
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:22:15.792553
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:22:15.792553
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:22:18.516857
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:22:18.516857
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:22:18.775007
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:22:18.776010
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:22:19.266690
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:22:19.266690
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:22:19.718039
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:22:19.718039
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:22:20.182174
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:22:20.182174
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:22:20.656166
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:22:20.656166
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:22:21.087932
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:22:21.087932
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:22:21.486800
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:22:21.486800
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:29:30.252043
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:29:30.252043
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:30:31.776176
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:30:31.776176
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:37:13.743748
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:37:13.743748
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:37:57.170973
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:37:57.170973
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:38:18.973687
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:38:18.973687
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:38:42.168632
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:38:42.168632
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:39:05.587091
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:39:05.587091
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 21:57:05.203015
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 21:57:05.203015
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:04:27.678781
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:04:27.678781
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:06:08.314716
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:06:08.314716
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:32:49.275831
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:32:49.275831
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:32:49.276831
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:32:49.276831
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:32:50.544303
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:32:50.544303
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:32:51.958961
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:32:51.958961
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:32:52.639353
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:32:52.639353
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:32:53.045110
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:32:53.045110
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:32:53.439068
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:32:53.439068
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:32:53.837350
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:32:53.837350
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:32:54.259143
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:32:54.259143
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:32:54.744202
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12553332 bytes
+End Time: 2024-12-27 22:32:54.744202
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:33:16.814984
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-27 22:33:16.814984
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:33:17.858326
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-27 22:33:17.858326
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-27 22:39:28.587906
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-27 22:39:28.587906
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:50.485366
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:50.485366
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:50.485366
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:50.485366
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:52.077497
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:52.077497
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:52.395302
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:52.395302
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:52.830830
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:52.830830
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:53.249564
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:53.249564
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:53.732814
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:53.736815
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:54.281087
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:54.281087
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:54.744433
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:54.744433
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:58.203233
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:58.203233
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 00:54:58.449522
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 00:54:58.449522
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:00.436653
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:00.436653
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:00.437655
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:00.437655
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:01.822892
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:01.822892
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:02.582450
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:02.582450
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:02.959597
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:02.959597
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:03.328885
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:03.328885
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:03.665531
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:03.665531
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:03.987632
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:03.987632
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:04.276783
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:04.276783
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:04.515268
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:04.515268
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 14:43:04.697335
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 14:43:04.697335
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:06:39.434190
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:06:39.434190
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:09:32.315282
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:09:32.315282
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:32:45.686761
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:32:45.686761
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:38:54.107587
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:38:54.107587
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:47.057614
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:47.057614
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:47.059615
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:47.059615
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:48.216494
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:48.216494
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:49.466718
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:49.466718
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:49.841667
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:49.841667
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:50.174683
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:50.174683
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:50.460733
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:50.460733
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:50.757508
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:50.757508
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:51.047302
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:51.047302
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:51.343156
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:51.343156
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:45:51.641305
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:45:51.641305
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:48:11.758515
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:48:11.758515
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:49:20.221732
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:49:20.221732
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:50:00.617443
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:50:00.617443
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:52:06.420245
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:52:06.420245
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:52:41.679737
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:52:41.679737
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:56:16.983857
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:56:16.983857
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:56:45.604096
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:56:45.604096
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:57:13.768420
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:57:13.768420
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:58:10.896801
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:58:10.896801
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 15:58:47.483590
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 15:58:47.483590
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 16:04:16.999995
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 16:04:16.999995
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 16:05:50.023586
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 16:05:50.023586
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 16:06:11.303846
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 16:06:11.303846
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 16:11:24.604319
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 16:11:24.604319
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:16.826297
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:16.826297
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:16.827295
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:16.827295
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:19.648883
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:19.648883
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:21.709410
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:21.709410
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:22.135518
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:22.135518
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:22.493781
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:22.493781
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:22.778196
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:22.778196
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:23.108424
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:23.108424
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:23.453400
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:23.453400
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:23.837691
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:23.837691
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:24.184424
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:24.184424
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:26.076402
+Operation Code: AUTO_SYNC
+Status Code: ERROR: log_event() got an unexpected keyword argument 'file_count'
+End Time: 2024-12-28 17:17:26.077388
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:30.168239
+Operation Code: AUTO_SYNC
+Status Code: ERROR: log_event() got an unexpected keyword argument 'file_count'
+End Time: 2024-12-28 17:17:30.168239
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:33.288944
+Operation Code: AUTO_SYNC
+Status Code: ERROR: log_event() got an unexpected keyword argument 'file_count'
+End Time: 2024-12-28 17:17:33.288944
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:38.542822
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:17:38.542822
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:17:40.791244
+Operation Code: AUTO_SYNC
+Status Code: ERROR: log_event() got an unexpected keyword argument 'file_count'
+End Time: 2024-12-28 17:17:40.791244
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:18:41.258263
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:18:41.258263
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:24:59.269342
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:24:59.269342
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:31:20.576840
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:31:20.576840
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:03.917384
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:03.917384
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:10.698644
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:10.698644
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:20.763181
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:20.763181
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:30.816946
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:30.816946
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:40.856313
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:40.856313
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:48.787328
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:48.787328
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:49.822276
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:49.822276
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:50.861288
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:50.861288
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:51.896547
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:51.896547
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:52.923212
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:52.923212
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:53.959248
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:53.959248
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:54.993239
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:54.993239
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:56.034403
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:56.034403
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:57.068038
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:57.068038
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:58.202492
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:58.202492
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:32:59.228512
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:32:59.228512
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:33:00.252874
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:33:00.252874
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:33:01.300504
+Operation Code: AUTO_SYNC
+Status Code: ERROR: [WinError 2] Sistem belirtilen dosyayý bulamýyor: '04.jpg'
+End Time: 2024-12-28 17:33:01.300504
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:55:43.569432
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12589584 bytes
+End Time: 2024-12-28 17:55:43.569432
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 17:57:29.457943
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12593082 bytes
+End Time: 2024-12-28 17:57:29.457943
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 18:01:48.005809
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12593082 bytes
+End Time: 2024-12-28 18:01:48.005809
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 21:41:25.956794
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 21:41:25.956794
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 21:43:19.157054
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 21:43:19.157054
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 21:45:24.171860
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 21:45:24.171860
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 21:57:51.486495
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 21:57:51.486495
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 21:58:59.307686
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 21:58:59.307686
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 21:59:37.659027
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 21:59:37.659027
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:00:58.723730
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:00:58.723730
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:06:28.025370
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:06:28.025370
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:06:28.029382
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:06:28.029382
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:06:29.298440
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:06:29.298440
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:06:30.383300
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:06:30.383300
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:06:30.816718
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:06:30.816718
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:06:31.221426
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:06:31.221426
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:06:31.605014
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:06:31.605014
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:06:31.927936
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:06:31.927936
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:06:32.097534
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:06:32.097534
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:06:32.248328
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:06:32.248328
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:07:38.125579
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:07:38.125579
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:13:58.755556
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:13:58.755556
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:16:00.847483
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:16:00.847483
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:18:06.444416
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:18:06.444416
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:18:22.023000
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:18:22.023000
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:21:01.841833
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:21:01.841833
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:21:01.866541
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:21:01.866541
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:21:59.504659
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:21:59.504659
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:22:16.016770
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:22:16.016770
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:25:46.722467
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:25:46.722467
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:30:15.115412
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:30:15.115412
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:30:47.365357
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:30:47.365357
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:31:34.172627
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:31:34.172627
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:31:52.649229
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:31:52.649229
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:32:11.747318
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:32:11.747318
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:32:48.440285
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:32:48.440285
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:33:28.099210
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:33:28.099210
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:54:10.710234
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:54:10.710234
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:54:10.711795
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:54:10.711795
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:54:55.206458
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:54:55.206458
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 22:57:50.202751
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 22:57:50.202751
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:00:14.529061
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:00:14.529061
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:03:28.735383
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:03:28.735383
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:04:04.404001
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:04:04.404001
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:05:02.370323
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:05:02.370323
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:05:37.081743
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:05:37.081743
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:07:16.740376
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:07:16.740376
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:07:16.742376
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:07:16.742376
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:07:24.490173
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:07:24.490173
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:07:25.759462
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:07:25.759462
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:07:26.219415
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:07:26.219415
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:07:26.648130
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:07:26.648130
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:07:27.044235
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:07:27.044235
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:07:27.456666
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:07:27.456666
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:07:27.744605
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:07:27.744605
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:07:27.942260
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:07:27.942260
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:08:35.195353
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:08:35.195353
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:11:45.017730
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:11:45.017730
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:12:29.365432
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:12:29.365432
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:16:26.352323
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:16:26.353324
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:18:02.189324
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:18:02.189324
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:18:28.070202
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:18:28.070202
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:18:30.137304
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:18:30.137304
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:19:11.441209
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:19:11.441209
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:19:53.439562
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:19:53.439562
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:19:55.249336
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12649911 bytes
+End Time: 2024-12-28 23:19:55.249336
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-28 23:20:24.649298
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-28 23:20:24.650298
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:34.000465
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:34.004458
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:34.004458
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:34.004458
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:35.343893
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:35.343893
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:36.376661
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:36.376661
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:38.043833
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:38.043833
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:38.766602
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:38.766602
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:39.213554
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:39.213554
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:39.641087
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:39.641087
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:39.949378
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:39.949378
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:40.169737
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:40.169737
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 02:24:40.423233
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 02:24:40.427234
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:12:53.682697
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 15:12:53.682697
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:12:53.682697
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 15:12:53.682697
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:12:55.448260
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 15:12:55.448260
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:12:55.640711
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 15:12:55.640711
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:12:55.922787
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 15:12:55.922787
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:12:56.073887
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 15:12:56.073887
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:12:56.211346
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 15:12:56.211346
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:12:56.358559
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 15:12:56.358559
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:12:56.518693
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12627216 bytes
+End Time: 2024-12-29 15:12:56.518693
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:18:19.366711
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 15:18:19.366711
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:26:01.149029
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 15:26:01.149029
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:26:01.165027
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 15:26:01.165027
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 15:42:52.493951
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 15:42:52.493951
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 16:45:37.143004
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 16:45:37.143004
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 16:45:37.144005
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 16:45:37.144005
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:50:04.374009
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:50:04.374009
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:50:04.374009
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:50:04.374009
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:50:07.208797
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:50:07.208797
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:50:07.384322
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:50:07.384322
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:50:07.548277
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:50:07.548277
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:50:07.692355
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:50:07.692355
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:50:07.835463
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:50:07.835463
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:50:07.982713
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:50:07.982713
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:50:08.123338
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:50:08.123338
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:50:08.283159
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:50:08.283159
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 17:52:33.469653
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 17:52:33.469653
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:21.508356
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:21.508356
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:21.509356
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:21.509356
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:23.118066
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:23.118066
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:24.428061
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:24.428061
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:24.611560
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:24.611560
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:24.785332
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:24.785332
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:24.968248
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:24.969250
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:25.130556
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:25.130556
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:25.267357
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:25.267357
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:25.464672
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:25.465670
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:27:50.878693
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:27:50.878693
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:37:04.774767
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:37:04.774767
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:44:14.381459
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:44:14.381459
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:44:53.531386
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:44:53.531386
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:45:26.255847
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:45:26.255847
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:46:11.547441
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:46:11.547441
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:47:09.538515
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:47:09.538515
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:25.560714
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:25.560714
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:27.513753
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:27.513753
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:30.622472
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:30.622472
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:34.242654
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:34.242654
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:36.961540
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:36.961540
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:39.405264
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:39.405264
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:42.236336
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:42.236336
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:44.453324
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:44.453324
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:46.629507
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:46.629507
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:48.326262
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:48.326262
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:50.225920
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:50.225920
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:53.310274
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:53.310274
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:48:55.266271
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:48:55.266271
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:50:26.338422
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:50:26.338422
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:50:54.175112
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:50:54.175112
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:51:24.288294
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:51:24.288294
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:51:35.684492
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:51:35.684492
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:51:47.278618
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:51:47.278618
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:51:59.864211
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:51:59.864211
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:52:12.520359
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 12590964 bytes
+End Time: 2024-12-29 19:52:12.520359
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:52:13.531274
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40435280 bytes
+End Time: 2024-12-29 19:52:13.531274
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:52:15.046676
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40435280 bytes
+End Time: 2024-12-29 19:52:15.046676
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:52:24.485480
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40435280 bytes
+End Time: 2024-12-29 19:52:24.485480
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:53:30.498454
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40435280 bytes
+End Time: 2024-12-29 19:53:30.498454
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 19:55:37.165768
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40435280 bytes
+End Time: 2024-12-29 19:55:37.165768
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:00:28.315858
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40435280 bytes
+End Time: 2024-12-29 20:00:28.315858
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:10:25.240573
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40435280 bytes
+End Time: 2024-12-29 20:10:25.240573
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:19:26.223676
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40435280 bytes
+End Time: 2024-12-29 20:19:26.223676
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:20:42.290125
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:20:42.290125
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:20:44.308502
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:20:44.308502
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:23:50.138359
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:23:50.138359
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:26:20.234825
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:26:20.234825
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:26:47.715230
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:26:47.715230
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:26:50.633237
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:26:50.633237
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:26:53.024862
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:26:53.024862
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:26:54.974974
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:26:54.974974
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:27:00.679304
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:27:00.679304
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:27:03.077016
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:27:03.077016
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:28:21.562845
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:28:21.562845
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:28:21.563839
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:28:21.563839
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:28:24.923691
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:28:24.923691
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:28:25.464373
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:28:25.464373
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:28:25.881346
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:28:25.881346
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:28:26.139071
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:28:26.139071
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:28:26.368230
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:28:26.368230
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:28:26.581239
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:28:26.581239
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:28:35.751650
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:28:35.751650
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:28:36.465013
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40940838 bytes
+End Time: 2024-12-29 20:28:36.465013
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:29:35.326062
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40435280 bytes
+End Time: 2024-12-29 20:29:35.326062
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:29:41.643034
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:29:41.643034
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:30:00.960981
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:30:00.960981
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:31:38.017232
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:31:38.017232
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:32:36.944184
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:32:36.944184
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:33:46.478929
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:33:46.478929
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:35:19.750448
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:35:19.750448
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:35:47.961760
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:35:47.961760
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:37:19.287936
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:37:19.287936
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:38:47.685660
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:38:47.685660
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:38:51.212159
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:38:51.212159
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:38:54.043693
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:38:54.043693
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:39:07.756788
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:39:07.757782
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:39:46.826874
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:39:46.827873
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:40:01.515094
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:40:01.515094
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:48:20.564868
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:48:20.564868
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:48:23.593266
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:48:23.593266
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:48:31.058097
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:48:31.058097
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:48:36.557922
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:48:36.557922
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:52:05.072964
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:52:05.072964
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:52:09.361424
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:52:09.361424
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:55:01.118321
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:55:01.118321
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:55:01.139814
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:55:01.139814
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:59:06.084142
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:59:06.084142
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 20:59:22.428632
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 20:59:22.428632
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:02:41.554013
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:02:41.554013
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:02:53.922965
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:02:53.922965
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:04:21.448297
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:04:21.448297
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:04:56.248576
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:04:56.248576
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:05:18.023371
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:05:18.023371
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:06:10.361273
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:06:10.361273
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:06:34.530255
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:06:34.530255
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:07:38.762072
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:07:38.762072
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:08:34.159054
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:08:34.159054
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:09:33.426155
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:09:33.426155
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:10:15.529435
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:10:15.529435
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:11:11.544461
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:11:11.544461
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:12:14.156774
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:12:14.156774
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:13:25.793966
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:13:25.793966
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:15:42.977772
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:15:42.977772
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:17:17.439401
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:17:17.439401
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:18:28.432761
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:18:28.432761
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:42:16.961556
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:42:16.961556
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:42:17.052915
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:42:17.052915
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:42:19.730204
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:42:19.730204
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:42:20.878881
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:42:20.878881
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:42:21.412842
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:42:21.412842
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:42:22.784707
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:42:22.784707
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:42:23.847198
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:42:23.847198
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:45:40.201875
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:45:40.201875
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:47:55.566162
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:47:55.566162
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:50:01.541811
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:50:01.541811
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:51:18.496294
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:51:18.496294
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:54:13.246282
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:54:13.246282
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:58:24.151213
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:58:24.151213
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:58:24.175237
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:58:24.175237
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 21:59:03.056029
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 21:59:03.056029
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:07:26.070565
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:07:26.070565
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:11:40.074951
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:11:40.074951
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:23:05.200304
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:23:05.200304
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:24:00.095228
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:24:00.095228
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:25:53.006386
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:25:53.006386
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:28:39.823412
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:28:39.823412
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:33:44.489903
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:33:44.489903
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:36:20.530476
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:36:20.530476
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:50:20.577229
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:50:20.577229
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:50:20.577229
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:50:20.577229
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:50:23.068286
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:50:23.068286
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:50:24.267937
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:50:24.267937
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:50:24.921020
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:50:24.921020
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:50:25.312816
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:50:25.312816
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:50:25.702399
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:50:25.702399
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:50:26.003478
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:50:26.003478
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:50:26.329282
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:50:26.329282
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 22:53:40.803063
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 22:53:40.803063
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 23:05:30.567176
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 23:05:30.567176
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 23:05:30.607821
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 23:05:30.607821
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 23:07:36.327270
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 23:07:36.327270
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 23:10:16.271848
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 40395518 bytes
+End Time: 2024-12-29 23:10:16.271848
+
+--------------------------------------------------
+Category: Backup
+Start Time: 2024-12-29 23:13:56.459537
+Operation Code: AUTO_SYNC
+Status Code: SUCCESS
+Source Directory: uploaded_files
+Backup Size: 664912 bytes
+End Time: 2024-12-29 23:13:56.459537
+
+--------------------------------------------------

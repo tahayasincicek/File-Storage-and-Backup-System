@@ -1,0 +1,104 @@
+Category: File Management
+Start Time: 2024-12-27 16:00:22.951861
+Operation Code: SHARE_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 16:00:22.952862
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-27 16:14:43.602152
+Operation Code: SHARE_FILE
+Status Code: FAILED: File not found
+Username: ali
+End Time: 2024-12-27 16:14:43.602152
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-27 21:57:32.483147
+Operation Code: SHARE_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 21:57:32.483147
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-27 21:57:40.729226
+Operation Code: SHARE_FILE
+Status Code: FAILED: Duplicate share attempt
+Username: ali
+End Time: 2024-12-27 21:57:40.729226
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-27 22:06:30.212079
+Operation Code: SHARE_FILE
+Status Code: FAILED: Duplicate share attempt
+Username: ali
+End Time: 2024-12-27 22:06:30.212079
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-27 22:39:55.154303
+Operation Code: SHARE_FILE
+Status Code: FAILED: File not found
+Username: ali
+End Time: 2024-12-27 22:39:55.154303
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-28 15:39:41.654020
+Operation Code: SHARE_FILE
+Status Code: FAILED: File not found
+Username: ahmet
+End Time: 2024-12-28 15:39:41.654020
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-28 15:40:01.761975
+Operation Code: SHARE_FILE
+Status Code: FAILED: Recipient not a team member
+Username: ahmet
+End Time: 2024-12-28 15:40:01.761975
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-28 15:40:21.883596
+Operation Code: SHARE_FILE
+Status Code: SUCCESS
+Username: ahmet
+End Time: 2024-12-28 15:40:21.884621
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-28 18:21:55.661337
+Operation Code: SHARE_FILE
+Status Code: FAILED: Recipient not a team member
+Username: furkan
+End Time: 2024-12-28 18:21:55.661337
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-28 18:22:07.824203
+Operation Code: SHARE_FILE
+Status Code: SUCCESS
+Username: furkan
+End Time: 2024-12-28 18:22:07.824203
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-29 15:22:08.067065
+Operation Code: SHARE_FILE
+Status Code: FAILED: File not found
+Username: ali
+End Time: 2024-12-29 15:22:08.067065
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-29 16:29:06.058606
+Operation Code: SHARE_FILE
+Status Code: FAILED: File not found
+Username: ali
+End Time: 2024-12-29 16:29:06.058606
+
+--------------------------------------------------

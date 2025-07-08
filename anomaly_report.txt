@@ -1,0 +1,95 @@
+
+### Anomaly Report ###
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: Unexpected interruption during AUTO_SYNC
+
+Anomaly detected in logs\AUTO_SYNC.txt:
+Detail: 24 instances of 'ERROR'
+Username: Unknown
+
+Anomaly detected in logs\LOGIN.txt:
+Detail: 18 instances of 'FAILED login'
+Username: ali
+
+Anomaly detected in logs\LOGIN.txt:
+Detail: 4 instances of 'FAILED login'
+Username: taha
+
+Anomaly detected in logs\REQUEST_PASSWORD_CHANGE.txt:
+Detail: 29 instances of 'SUCCES'
+Username: ali
+
+Anomaly detected in logs\SHARE_FILE.txt:
+Detail: Duplicate share attempt
+Username: ali
+
+Anomaly detected in logs\UPLOAD_FILE.txt:
+Detail: 13 instances of 'SUCCESS'
+Username: ali
+

@@ -1,0 +1,216 @@
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:54:20.811115
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:54:20.811115
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:54:29.580229
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: Admin
+End Time: 2024-12-29 21:54:29.580229
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:54:43.631851
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:54:43.631851
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:55:01.266560
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:55:01.266560
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:55:05.296732
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:55:05.296732
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:55:08.493127
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:55:08.493127
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:55:27.532741
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: Admin
+End Time: 2024-12-29 21:55:27.532741
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:55:40.645120
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:55:40.645120
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:55:43.827243
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:55:43.827243
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:55:47.237445
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:55:47.237445
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:56:00.696741
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: Admin
+End Time: 2024-12-29 21:56:00.696741
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:56:10.388218
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:56:10.388218
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:56:12.390675
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:56:12.390675
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:56:14.664064
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:56:14.664064
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:56:19.151556
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:56:19.151556
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:58:32.224873
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:58:32.224873
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:58:39.249452
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: Admin
+End Time: 2024-12-29 21:58:39.249452
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:59:14.199059
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: Admin
+End Time: 2024-12-29 21:59:14.199059
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:59:21.587178
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:59:21.587178
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:59:34.457070
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: Admin
+End Time: 2024-12-29 21:59:34.457070
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:59:43.591920
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:59:43.591920
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 21:59:46.822606
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 21:59:46.822606
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 22:07:44.033040
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: Admin
+End Time: 2024-12-29 22:07:44.033040
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 22:07:52.591044
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 22:07:52.591044
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 22:08:01.119560
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: Admin
+End Time: 2024-12-29 22:08:01.123598
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 22:08:21.092013
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 22:08:21.092013
+
+--------------------------------------------------
+Category: Profil Eriþimi
+Start Time: 2024-12-29 22:11:48.361708
+Operation Code: GÝRÝÞ
+Status Code: BAÞARILI
+Username: ali
+End Time: 2024-12-29 22:11:48.361708
+
+--------------------------------------------------

@@ -1,0 +1,84 @@
+Category: File Management
+Start Time: 2024-12-27 22:33:10.520352
+Operation Code: UPLOAD_FILE
+Status Code: FAILED: File already exists
+Username: ali
+End Time: 2024-12-27 22:33:10.520352
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+
+--------------------------------------------------
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+Category: File Management
+Start Time: 2024-12-27 22:33:20.063308
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-27 22:33:20.063308
+Category: File Management
+Start Time: 2024-12-29 19:52:16.166734
+Operation Code: UPLOAD_FILE
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-29 19:52:16.166734
+
+--------------------------------------------------

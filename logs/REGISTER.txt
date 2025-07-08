@@ -1,0 +1,32 @@
+Category: Profile Access
+Start Time: 2024-12-27 16:00:36.050001
+Operation Code: REGISTER
+Status Code: SUCCESS
+Username: ahmet
+End Time: 2024-12-27 16:00:36.050001
+
+--------------------------------------------------
+Category: Profile Access
+Start Time: 2024-12-27 16:12:36.709040
+Operation Code: REGISTER
+Status Code: FAILED: Invalid role
+Username: a
+End Time: 2024-12-27 16:12:36.709040
+
+--------------------------------------------------
+Category: Profile Access
+Start Time: 2024-12-27 16:12:46.349868
+Operation Code: REGISTER
+Status Code: FAILED: Password too short
+Username: afgfg
+End Time: 2024-12-27 16:12:46.349868
+
+--------------------------------------------------
+Category: Profile Access
+Start Time: 2024-12-28 21:43:45.340674
+Operation Code: REGISTER
+Status Code: FAILED: Username already taken
+Username: Admin
+End Time: 2024-12-28 21:43:45.340674
+
+--------------------------------------------------

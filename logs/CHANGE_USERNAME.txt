@@ -1,0 +1,24 @@
+Category: User Action
+Start Time: 2024-12-26 20:23:00.710051
+Operation Code: CHANGE_USERNAME
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-26 20:23:00.710051
+
+--------------------------------------------------
+Category: User Action
+Start Time: 2024-12-28 18:20:21.474342
+Operation Code: CHANGE_USERNAME
+Status Code: SUCCESS
+Username: taha
+End Time: 2024-12-28 18:20:21.474342
+
+--------------------------------------------------
+Category: User Action
+Start Time: 2024-12-28 18:20:58.909549
+Operation Code: CHANGE_USERNAME
+Status Code: SUCCESS
+Username: ali
+End Time: 2024-12-28 18:20:58.909549
+
+--------------------------------------------------

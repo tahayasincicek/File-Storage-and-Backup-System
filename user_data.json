@@ -1,0 +1,124 @@
+{
+    "Admin": {
+        "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "role": "admin",
+        "team_members": [],
+        "notifications": [
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC."
+        ],
+        "files": [],
+        "shared_files": [],
+        "storage_limit": 100,
+        "password_request": false
+    },
+    "Furkan": {
+        "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "role": "individual",
+        "team_members": [
+            "Taha"
+        ],
+        "notifications": [
+            "Taha shared a file with you: IEEE_Template.docx",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC."
+        ],
+        "files": [
+            "IEEE_Template.docx"
+        ],
+        "shared_files": [
+            {
+                "file_name": "IEEE_Template.docx",
+                "shared_by": "Taha"
+            }
+        ],
+        "storage_limit": 100,
+        "password_request": false
+    },
+    "taha": {
+        "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "role": "individual",
+        "team_members": [
+            "Furkan"
+        ],
+        "notifications": [
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\AUTO_SYNC.txt: Unexpected interruption during AUTO_SYNC.",
+            "Anomaly detected in logs\\LOGIN.txt: 4 instances of 'FAILED login' found."
+        ],
+        "files": [
+            "IEEE_Template.docx"
+        ],
+        "shared_files": [],
+        "storage_limit": 100,
+        "password_request": false,
+        "shared_files_history": {
+            "IEEE_Template.docx": [
+                "Furkan"
+            ]
+        }
+    }
+}

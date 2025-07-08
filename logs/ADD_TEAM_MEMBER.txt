@@ -1,0 +1,16 @@
+Category: Team Management
+Start Time: 2024-12-27 16:00:09.081570
+Operation Code: ADD_TEAM_MEMBER
+Status Code: FAILED: Invalid username
+Username: ali
+End Time: 2024-12-27 16:00:09.081570
+
+--------------------------------------------------
+Category: Team Management
+Start Time: 2024-12-29 15:17:05.456224
+Operation Code: ADD_TEAM_MEMBER
+Status Code: FAILED: Invalid username
+Username: ali
+End Time: 2024-12-29 15:17:05.456224
+
+--------------------------------------------------
