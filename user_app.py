@@ -10,6 +10,7 @@ import threading
 import time
 import tkinter as tk
 import log_analyzer
+from encryption import encrypt_file, decrypt_file
 
 
 from watchdog.observers import Observer
@@ -417,12 +418,15 @@ class UserApp:
                 )
                 return
 
-            with open(file_path, "rb") as src_file:
-                with open(dest_path, "wb") as dest_file:
-                    dest_file.write(src_file.read())
-
-            db.add_file(self.logged_in_user, file_name)
-            messagebox.showinfo("Success", "File uploaded successfully.")
+            # Copy the file to the destination and then encrypt it in-place
+            shutil.copy2(file_path, dest_path)
+            if encrypt_file(dest_path):
+                db.add_file(self.logged_in_user, file_name)
+                messagebox.showinfo("Success", "File uploaded and encrypted successfully.")
+            else:
+                os.remove(dest_path)
+                messagebox.showerror("Error", "Failed to encrypt the file during upload.")
+                return
             log_event(
                 category="File Management",
                 operation_code="UPLOAD_FILE",
@@ -444,12 +448,23 @@ class UserApp:
             return
 
         if file_to_edit in files:
-            action = simpledialog.askstring("Edit File", f"Choose an action for {file_to_edit} (edit/delete):")
+            action = simpledialog.askstring("File Action", f"Choose an action for {file_to_edit} (download/edit/delete):")
 
             if not action:
                 return
+                
+            action = action.lower()
 
-            if action.lower() == "edit":
+            if action == "download":
+                save_path = filedialog.asksaveasfilename(initialfile=file_to_edit, title="Save File")
+                if save_path:
+                    source_path = os.path.join(files_directory, file_to_edit)
+                    if decrypt_file(source_path, save_path):
+                        messagebox.showinfo("Success", "File decrypted and downloaded successfully.")
+                    else:
+                        messagebox.showerror("Error", "Failed to decrypt the file.")
+                        
+            elif action == "edit":
                 new_name = simpledialog.askstring("Edit File Name", "Enter new file name:")
                 if new_name:
                     # Rename the file
@@ -463,12 +478,13 @@ class UserApp:
                         pass  # updated in db directly via rename
                         db.rename_file(self.logged_in_user, file_to_edit, new_name)
                         messagebox.showinfo("Success", f"File '{file_to_edit}' renamed to '{new_name}'.")
-            elif action.lower() == "delete":
+            elif action == "delete":
                 confirmation = messagebox.askyesno("Delete File", f"Are you sure you want to delete {file_to_edit}?")
                 if confirmation:
                     file_path = os.path.join(files_directory, file_to_edit)
-                    os.remove(file_path)
-                    pass  # updated in db directly via rename
+                    if os.path.exists(file_path):
+                        os.remove(file_path)
+                    db.remove_file(self.logged_in_user, file_to_edit)
                     messagebox.showinfo("Success", f"File '{file_to_edit}' deleted.")
         else:
             messagebox.showerror("Error", "File not found.")
@@ -584,7 +600,26 @@ class UserApp:
         files_list = "\n".join(
             [f"{f['file_name']} (Shared by: {f['shared_by']})" for f in shared_files]
         )
-        messagebox.showinfo("Shared Files", f"Files shared with you:\n\n{files_list}")
+        
+        file_to_download = simpledialog.askstring(
+            "Shared Files", 
+            f"Files shared with you:\n\n{files_list}\n\nEnter file name to download (or cancel to close):"
+        )
+        
+        if not file_to_download:
+            return
+            
+        file_names = [f['file_name'] for f in shared_files]
+        if file_to_download in file_names:
+            save_path = filedialog.asksaveasfilename(initialfile=file_to_download, title="Save Shared File")
+            if save_path:
+                source_path = os.path.join(files_directory, file_to_download)
+                if decrypt_file(source_path, save_path):
+                    messagebox.showinfo("Success", "Shared file decrypted and downloaded successfully.")
+                else:
+                    messagebox.showerror("Error", "Failed to decrypt the shared file.")
+        else:
+            messagebox.showerror("Error", "File not found in your shared files.")
 
     def logout(self):
         if self.logged_in_user:
