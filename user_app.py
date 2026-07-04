@@ -811,48 +811,48 @@ class UserApp:
         tk.Button(storage_window, text="Set Limit", command=set_limit, font=('Arial', 12)).pack(pady=10)
 
     def approve_password_requests(self):
-     requests_window = tk.Toplevel(self.root)
-     requests_window.title("Approve Password Requests")
-     requests_window.geometry("400x300")
+        requests_window = tk.Toplevel(self.root)
+        requests_window.title("Approve Password Requests")
+        requests_window.geometry("400x300")
 
-     tk.Label(requests_window, text="Password Change Requests", font=('Arial', 14)).pack(pady=10)
+        tk.Label(requests_window, text="Password Change Requests", font=('Arial', 14)).pack(pady=10)
 
-     requests_list_frame = tk.Frame(requests_window)
-     requests_list_frame.pack(pady=10)
+        requests_list_frame = tk.Frame(requests_window)
+        requests_list_frame.pack(pady=10)
 
-     requests_listbox = tk.Listbox(requests_list_frame, width=40, height=10)
-     requests_listbox.pack(side="left", fill="y")
+        requests_listbox = tk.Listbox(requests_list_frame, width=40, height=10)
+        requests_listbox.pack(side="left", fill="y")
 
-     scrollbar = tk.Scrollbar(requests_list_frame, orient="vertical")
-     scrollbar.config(command=requests_listbox.yview)
-     scrollbar.pack(side="right", fill="y")
+        scrollbar = tk.Scrollbar(requests_list_frame, orient="vertical")
+        scrollbar.config(command=requests_listbox.yview)
+        scrollbar.pack(side="right", fill="y")
 
-     requests_listbox.config(yscrollcommand=scrollbar.set)
+        requests_listbox.config(yscrollcommand=scrollbar.set)
 
-     for username, data in user_data.items():
-          if data.get("password_request"):
-             requests_listbox.insert(tk.END, username)
+        for username, data in user_data.items():
+            if data.get("password_request"):
+                requests_listbox.insert(tk.END, username)
 
-     def approve_request():
-        selected_user = requests_listbox.get(tk.ACTIVE)
-        if not selected_user:
-            messagebox.showerror("Error", "No user selected.")
-            return
+        def approve_request():
+            selected_user = requests_listbox.get(tk.ACTIVE)
+            if not selected_user:
+                messagebox.showerror("Error", "No user selected.")
+                return
 
-        user_data[selected_user]["notifications"].append(
-            "Your password change request has been approved. You will be prompted to change your password on next login."
-        )
-        save_data()
-        requests_listbox.delete(tk.ACTIVE)
-        messagebox.showinfo("Success", f"Password change request for {selected_user} approved.")
-        log_event(
-            category="User Management",
-            operation_code="APPROVE_PASSWORD_REQUEST",
-            status_code="SUCCESS",
-            username=self.logged_in_user
-        )
+            user_data[selected_user]["notifications"].append(
+                "Your password change request has been approved. You will be prompted to change your password on next login."
+            )
+            save_data()
+            requests_listbox.delete(tk.ACTIVE)
+            messagebox.showinfo("Success", f"Password change request for {selected_user} approved.")
+            log_event(
+                category="User Management",
+                operation_code="APPROVE_PASSWORD_REQUEST",
+                status_code="SUCCESS",
+                username=self.logged_in_user
+            )
 
-     tk.Button(requests_window, text="Approve Request", command=approve_request, font=('Arial', 12)).pack(pady=10)
+        tk.Button(requests_window, text="Approve Request", command=approve_request, font=('Arial', 12)).pack(pady=10)
 if __name__ == "__main__":
     root = ctk.CTk()
         # Start continuous backup
