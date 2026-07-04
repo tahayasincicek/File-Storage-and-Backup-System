@@ -35,7 +35,13 @@ This system is designed to enhance file security, provide real-time log analysis
 - 🧾 Real-time logging and categorized log files
 - ⚠️ Detection and notification of abnormal activities
 - 🧠 User behavior tracking and analysis
-- 📊 Admin dashboard for system-wide control
+- 🗄️ **SQLite Database** integration for robust data management
+- 🔒 **AES File Encryption** for all uploaded files
+- 🕒 **File Versioning System** to restore older file versions
+- 👁️ **File Preview** for text and image files within the app
+- 🖱️ **Drag and Drop** file upload support
+- 📊 **Admin Dashboard** with charts and statistics (Matplotlib)
+- 🔍 **Search functionality** for files, users, and logs
 
 ---
 
@@ -111,10 +117,14 @@ This system is designed to enhance file security, provide real-time log analysis
 - 🐍 **Python 3.x**
 - 📦 Libraries:
   - `customtkinter` – Modern GUI framework
+  - `tkinterdnd2` – Drag and Drop support
+  - `sqlite3` – Core database (built-in)
+  - `cryptography` – AES encryption for secure storage
+  - `Pillow` – Image processing and preview
+  - `matplotlib` – Admin dashboard charts and statistics
   - `hashlib` – Password hashing
   - `os`, `shutil`, `threading`, `time` – File ops & concurrency
   - `watchdog` – Directory change monitoring
-  - `json` – Data storage & management
 - 🧪 Custom anomaly detection algorithms
 
 ---
@@ -124,12 +134,15 @@ This system is designed to enhance file security, provide real-time log analysis
 ```
 File-Storage-and-Backup-System/
 ├── user_app.py            # Main application (GUI & logic)
+├── database.py            # SQLite Database logic
+├── encryption.py          # AES File Encryption logic
 ├── logger.py              # Event logging module
 ├── log_analyzer.py        # Log analysis & anomaly detection
-├── user_data.json         # User data storage
+├── app_data.db            # SQLite database file (auto-generated)
 ├── anomaly_report.txt     # Generated anomaly reports
-├── uploaded_files/        # Directory for uploaded files
+├── uploaded_files/        # Directory for uploaded files (encrypted)
 ├── backup_files/          # Directory for backup copies
+├── versions/              # Directory for file versioning
 ├── logs/                  # Categorized log files
 └── README.md
 ```
@@ -149,7 +162,7 @@ File-Storage-and-Backup-System/
    Make sure you have Python 3.x installed on your system. Then, install the required dependencies:
 
    ```bash
-   pip install customtkinter watchdog
+   pip install customtkinter watchdog cryptography matplotlib pillow tkinterdnd2
    ```
 
 3. **Run the Application**
