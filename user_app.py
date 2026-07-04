@@ -13,6 +13,7 @@ import log_analyzer
 from encryption import encrypt_file, decrypt_file
 from PIL import Image, ImageTk
 import io
+from tkinterdnd2 import TkinterDnD, DND_FILES
 
 
 from watchdog.observers import Observer
@@ -313,11 +314,22 @@ class UserApp:
         actions_frame.pack(pady=20)
 
         if role == "individual":
+            # Drag and Drop Zone
+            self.drop_label = ctk.CTkLabel(actions_frame, text="Drag & Drop files here to upload", fg_color="gray", width=200, height=50)
+            self.drop_label.pack(pady=10)
+            
+            try:
+                self.drop_label.drop_target_register(DND_FILES)
+                self.drop_label.dnd_bind('<<Drop>>', self.handle_drop)
+            except Exception as e:
+                print(f"DnD registration failed: {e}")
+
+            ctk.CTkButton(actions_frame, text="Upload File", command=self.upload_file, width=200).pack(pady=5)
+            ctk.CTkButton(actions_frame, text="View Uploaded Files", command=self.view_uploaded_files, width=200).pack(pady=5)
+            
             ctk.CTkButton(actions_frame, text="Change Username", command=self.change_username, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="Request Password Change", command=self.request_password_change, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="Add Team Member", command=self.add_team_member, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="Upload File", command=self.upload_file, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="View Uploaded Files", command=self.view_uploaded_files, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="Share File", command=self.share_file, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="View Notifications", command=self.view_notifications, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="View Shared Files", command=self.view_shared_files, width=200).pack(pady=5)
@@ -384,59 +396,68 @@ class UserApp:
                 status_code="FAILED: Invalid username",
                 username=self.logged_in_user
             )
+    def handle_drop(self, event):
+        # Extract file paths from event.data (it can be surrounded by {})
+        files = self.root.tk.splitlist(event.data)
+        for file_path in files:
+            self.process_upload(file_path)
+
     def upload_file(self):
         file_path = filedialog.askopenfilename()
         if file_path:
-            file_name = os.path.basename(file_path)
-            dest_path = os.path.join(files_directory, file_name)
+            self.process_upload(file_path)
+            
+    def process_upload(self, file_path):
+        file_name = os.path.basename(file_path)
+        dest_path = os.path.join(files_directory, file_name)
 
-            if os.path.exists(dest_path):
-                # Versioning logic
-                timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-                name, ext = os.path.splitext(file_name)
-                versioned_name = f"{name}_{timestamp}{ext}"
-                versioned_path = os.path.join(versions_directory, versioned_name)
-                shutil.move(dest_path, versioned_path)
-                messagebox.showinfo("Versioned", "Existing file was saved as a previous version.")
+        if os.path.exists(dest_path):
+            # Versioning logic
+            timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+            name, ext = os.path.splitext(file_name)
+            versioned_name = f"{name}_{timestamp}{ext}"
+            versioned_path = os.path.join(versions_directory, versioned_name)
+            shutil.move(dest_path, versioned_path)
+            messagebox.showinfo("Versioned", "Existing file was saved as a previous version.")
 
-            file_size = os.path.getsize(file_path) / (1024 * 1024)
-            total_size = sum(
-                os.path.getsize(os.path.join(files_directory, f)) / (1024 * 1024)
-                for f in db.get_files(self.logged_in_user)
-                if os.path.exists(os.path.join(files_directory, f))
+        file_size = os.path.getsize(file_path) / (1024 * 1024)
+        total_size = sum(
+            os.path.getsize(os.path.join(files_directory, f)) / (1024 * 1024)
+            for f in db.get_files(self.logged_in_user)
+            if os.path.exists(os.path.join(files_directory, f))
+        )
+
+        storage_limit = db.get_user(self.logged_in_user)["storage_limit"]
+        if total_size + file_size > storage_limit:
+            messagebox.showerror(
+                "Storage Limit Exceeded",
+                f"Cannot upload file. Storage limit of {storage_limit}MB exceeded."
             )
-
-            storage_limit = db.get_user(self.logged_in_user)["storage_limit"]
-            if total_size + file_size > storage_limit:
-                messagebox.showerror(
-                    "Storage Limit Exceeded",
-                    f"Cannot upload file. Storage limit of {storage_limit}MB exceeded."
-                )
-                log_event(
-                    category="File Management",
-                    operation_code="UPLOAD_FILE",
-                    status_code="FAILED: Storage limit exceeded",
-                    username=self.logged_in_user,
-                    #details=f"File size: {file_size}MB, Total used: {total_size}MB, Limit: {storage_limit}MB"
-                )
-                return
-
-            # Copy the file to the destination and then encrypt it in-place
-            shutil.copy2(file_path, dest_path)
-            if encrypt_file(dest_path):
-                db.add_file(self.logged_in_user, file_name)
-                messagebox.showinfo("Success", "File uploaded and encrypted successfully.")
-            else:
-                os.remove(dest_path)
-                messagebox.showerror("Error", "Failed to encrypt the file during upload.")
-                return
             log_event(
                 category="File Management",
                 operation_code="UPLOAD_FILE",
-                status_code="SUCCESS",
+                status_code="FAILED: Storage limit exceeded",
                 username=self.logged_in_user,
-                #details=f"Uploaded file: {file_name}, Size: {file_size}MB"
+                #details=f"File size: {file_size}MB, Total used: {total_size}MB, Limit: {storage_limit}MB"
             )
+            return
+
+        # Copy the file to the destination and then encrypt it in-place
+        shutil.copy2(file_path, dest_path)
+        if encrypt_file(dest_path):
+            db.add_file(self.logged_in_user, file_name)
+            messagebox.showinfo("Success", "File uploaded and encrypted successfully.")
+        else:
+            os.remove(dest_path)
+            messagebox.showerror("Error", "Failed to encrypt the file during upload.")
+            return
+        log_event(
+            category="File Management",
+            operation_code="UPLOAD_FILE",
+            status_code="SUCCESS",
+            username=self.logged_in_user,
+            #details=f"Uploaded file: {file_name}, Size: {file_size}MB"
+        )
 
     def view_uploaded_files(self):
         files = db.get_files(self.logged_in_user)
@@ -957,8 +978,13 @@ class UserApp:
             )
 
         tk.Button(requests_window, text="Approve Request", command=approve_request, font=('Arial', 12)).pack(pady=10)
+class DnDApp(ctk.CTk, TkinterDnD.DnDWrapper):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.TkdndVersion = TkinterDnD._require(self)
+
 if __name__ == "__main__":
-    root = ctk.CTk()
+    root = DnDApp()
         # Start continuous backup
     start_continuous_backup()
     # Start directory monitoring
