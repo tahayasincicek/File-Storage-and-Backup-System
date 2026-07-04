@@ -11,6 +11,8 @@ import time
 import tkinter as tk
 import log_analyzer
 from encryption import encrypt_file, decrypt_file
+from PIL import Image, ImageTk
+import io
 
 
 from watchdog.observers import Observer
@@ -449,7 +451,7 @@ class UserApp:
             return
 
         if file_to_edit in files:
-            action = simpledialog.askstring("File Action", f"Choose an action for {file_to_edit} (download/edit/delete/versions):")
+            action = simpledialog.askstring("File Action", f"Choose an action for {file_to_edit} (preview/download/edit/delete/versions):")
 
             if not action:
                 return
@@ -464,6 +466,41 @@ class UserApp:
                         messagebox.showinfo("Success", "File decrypted and downloaded successfully.")
                     else:
                         messagebox.showerror("Error", "Failed to decrypt the file.")
+                        
+            elif action == "preview":
+                source_path = os.path.join(files_directory, file_to_edit)
+                decrypted_data = decrypt_file(source_path)
+                if not decrypted_data:
+                    messagebox.showerror("Error", "Failed to decrypt the file for preview.")
+                    return
+                
+                ext = os.path.splitext(file_to_edit)[1].lower()
+                preview_window = tk.Toplevel(self.root)
+                preview_window.title(f"Preview: {file_to_edit}")
+                
+                if ext in ['.txt', '.md', '.csv', '.json', '.py']:
+                    text_widget = tk.Text(preview_window, wrap="word")
+                    text_widget.pack(expand=True, fill="both")
+                    try:
+                        text_widget.insert("1.0", decrypted_data.decode('utf-8'))
+                    except Exception as e:
+                        text_widget.insert("1.0", f"Could not decode text file: {e}")
+                    text_widget.config(state="disabled")
+                    
+                elif ext in ['.png', '.jpg', '.jpeg', '.gif', '.bmp']:
+                    try:
+                        img = Image.open(io.BytesIO(decrypted_data))
+                        img.thumbnail((800, 600))
+                        photo = ImageTk.PhotoImage(img)
+                        label = tk.Label(preview_window, image=photo)
+                        label.image = photo  # keep a reference
+                        label.pack(expand=True, fill="both")
+                    except Exception as e:
+                        messagebox.showerror("Error", f"Failed to open image: {e}")
+                        preview_window.destroy()
+                else:
+                    messagebox.showinfo("Preview", "Preview is not supported for this file type.")
+                    preview_window.destroy()
                         
             elif action == "edit":
                 new_name = simpledialog.askstring("Edit File Name", "Enter new file name:")
@@ -624,23 +661,64 @@ class UserApp:
             [f"{f['file_name']} (Shared by: {f['shared_by']})" for f in shared_files]
         )
         
-        file_to_download = simpledialog.askstring(
+        file_to_action = simpledialog.askstring(
             "Shared Files", 
-            f"Files shared with you:\n\n{files_list}\n\nEnter file name to download (or cancel to close):"
+            f"Files shared with you:\n\n{files_list}\n\nEnter file name to interact with (or cancel to close):"
         )
         
-        if not file_to_download:
+        if not file_to_action:
             return
             
         file_names = [f['file_name'] for f in shared_files]
-        if file_to_download in file_names:
-            save_path = filedialog.asksaveasfilename(initialfile=file_to_download, title="Save Shared File")
-            if save_path:
-                source_path = os.path.join(files_directory, file_to_download)
-                if decrypt_file(source_path, save_path):
-                    messagebox.showinfo("Success", "Shared file decrypted and downloaded successfully.")
+        if file_to_action in file_names:
+            action = simpledialog.askstring("File Action", f"Choose an action for {file_to_action} (preview/download):")
+            if not action:
+                return
+            
+            action = action.lower()
+            source_path = os.path.join(files_directory, file_to_action)
+            
+            if action == "download":
+                save_path = filedialog.asksaveasfilename(initialfile=file_to_action, title="Save Shared File")
+                if save_path:
+                    if decrypt_file(source_path, save_path):
+                        messagebox.showinfo("Success", "Shared file decrypted and downloaded successfully.")
+                    else:
+                        messagebox.showerror("Error", "Failed to decrypt the shared file.")
+            
+            elif action == "preview":
+                decrypted_data = decrypt_file(source_path)
+                if not decrypted_data:
+                    messagebox.showerror("Error", "Failed to decrypt the shared file for preview.")
+                    return
+                
+                ext = os.path.splitext(file_to_action)[1].lower()
+                preview_window = tk.Toplevel(self.root)
+                preview_window.title(f"Preview: {file_to_action}")
+                
+                if ext in ['.txt', '.md', '.csv', '.json', '.py']:
+                    text_widget = tk.Text(preview_window, wrap="word")
+                    text_widget.pack(expand=True, fill="both")
+                    try:
+                        text_widget.insert("1.0", decrypted_data.decode('utf-8'))
+                    except Exception as e:
+                        text_widget.insert("1.0", f"Could not decode text file: {e}")
+                    text_widget.config(state="disabled")
+                    
+                elif ext in ['.png', '.jpg', '.jpeg', '.gif', '.bmp']:
+                    try:
+                        img = Image.open(io.BytesIO(decrypted_data))
+                        img.thumbnail((800, 600))
+                        photo = ImageTk.PhotoImage(img)
+                        label = tk.Label(preview_window, image=photo)
+                        label.image = photo
+                        label.pack(expand=True, fill="both")
+                    except Exception as e:
+                        messagebox.showerror("Error", f"Failed to open image: {e}")
+                        preview_window.destroy()
                 else:
-                    messagebox.showerror("Error", "Failed to decrypt the shared file.")
+                    messagebox.showinfo("Preview", "Preview is not supported for this file type.")
+                    preview_window.destroy()
         else:
             messagebox.showerror("Error", "File not found in your shared files.")
 
