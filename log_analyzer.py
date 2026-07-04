@@ -45,7 +45,7 @@ def analyze_log_file(file_path, keywords):
                         if username not in keyword_count_per_user:
                             keyword_count_per_user[username] = {}
                         if keyword not in keyword_count_per_user[username]:
-                            keyword_count_per_user[username][keyword] = 1
+                            keyword_count_per_user[username][keyword] = 0
                         keyword_count_per_user[username][keyword] += 1
 
                 # Dosya paylaşımını kontrol et
