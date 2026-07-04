@@ -833,9 +833,18 @@ class UserApp:
             messagebox.showerror("Error", "No user selected.")
             return
 
-        
-
-        
+        user_data[selected_user]["notifications"].append(
+            "Your password change request has been approved. You will be prompted to change your password on next login."
+        )
+        save_data()
+        requests_listbox.delete(tk.ACTIVE)
+        messagebox.showinfo("Success", f"Password change request for {selected_user} approved.")
+        log_event(
+            category="User Management",
+            operation_code="APPROVE_PASSWORD_REQUEST",
+            status_code="SUCCESS",
+            username=self.logged_in_user
+        )
 
      tk.Button(requests_window, text="Approve Request", command=approve_request, font=('Arial', 12)).pack(pady=10)
 if __name__ == "__main__":
