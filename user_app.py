@@ -227,6 +227,13 @@ class UserApp:
             self.logged_in_user = username
             role = user_data[username]["role"]
 
+            log_event(
+                category="Profile Access",
+                operation_code="LOGIN",
+                status_code="SUCCESS",
+                username=username
+            )
+
             if user_data[username].get("password_request"):
                 new_password = simpledialog.askstring("New Password", "Please change your password:")
                 if new_password and len(new_password) >= 6:
@@ -241,6 +248,12 @@ class UserApp:
             messagebox.showinfo("Login", f"Welcome, {username}! Role: {role}")
             self.show_user_actions()
         else:
+            log_event(
+                category="Profile Access",
+                operation_code="LOGIN",
+                status_code="FAILED login",
+                username=username
+            )
             messagebox.showerror("Error", "Invalid username or password.")
     def register(self):
         username = self.username_entry.get()
