@@ -461,8 +461,14 @@ class UserApp:
         files_list = "\n".join(files)
         file_to_edit = simpledialog.askstring("Edit File", f"Your files:\n{files_list}\n\nEnter file name to edit:")
 
+        if not file_to_edit:
+            return
+
         if file_to_edit in files:
             action = simpledialog.askstring("Edit File", f"Choose an action for {file_to_edit} (edit/delete):")
+
+            if not action:
+                return
 
             if action.lower() == "edit":
                 new_name = simpledialog.askstring("Edit File Name", "Enter new file name:")
