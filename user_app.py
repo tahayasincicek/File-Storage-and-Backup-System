@@ -121,6 +121,11 @@ class UserApp:
 
         self.logged_in_user = None
 
+        # Theme Switch
+        self.theme_var = ctk.StringVar(value="Dark")
+        self.theme_switch = ctk.CTkSwitch(root, text="Dark Mode", command=self.toggle_theme, variable=self.theme_var, onvalue="Dark", offvalue="Light")
+        self.theme_switch.pack(anchor="ne", padx=20, pady=5)
+
         # Login frame
         self.login_frame = ctk.CTkFrame(root, corner_radius=10)
         self.login_frame.pack(pady=20, padx=20, fill="both", expand=True)
@@ -152,6 +157,21 @@ class UserApp:
 
         self.start_backup_button = ctk.CTkButton(self.root, text="Start Backup", command=self.start_backup_thread)
         self.start_backup_button.pack(pady=10)
+
+    def toggle_theme(self):
+        mode = self.theme_var.get()
+        if mode == "Dark":
+            ctk.set_appearance_mode("dark")
+            self.theme_switch.configure(text="Dark Mode")
+        else:
+            ctk.set_appearance_mode("light")
+            self.theme_switch.configure(text="Light Mode")
+
+    def show_toast(self, message, m_type="success"):
+        toast = ctk.CTkFrame(self.root, corner_radius=10, fg_color="#2ecc71" if m_type == "success" else "#e74c3c")
+        toast.place(relx=0.5, rely=0.9, anchor="center")
+        ctk.CTkLabel(toast, text=message, text_color="white", font=('Arial', 12, 'bold')).pack(padx=20, pady=10)
+        self.root.after(3000, toast.destroy)
 
     def start_backup_thread(self):
         """Backup işlemini başlatmak için yeni bir thread oluşturur."""
@@ -240,12 +260,12 @@ class UserApp:
                     db.get_conn().execute('UPDATE users SET password = ?, password_request = 0 WHERE username = ?', 
                                          (hash_password(new_password), username))
                     db.get_conn().commit()
-                    messagebox.showinfo("Success", "Password changed successfully.")
+                    self.show_toast("Password changed successfully.")
                 else:
                     messagebox.showerror("Error", "Password must be at least 6 characters long.")
                     return
 
-            messagebox.showinfo("Login", f"Welcome, {username}! Role: {role}")
+            self.show_toast(f"Welcome, {username}!")
             self.show_user_actions()
         else:
             log_event(
@@ -293,7 +313,7 @@ class UserApp:
             )
         else:
             db.add_user(username, hash_password(password), role, storage_limit=100)
-            messagebox.showinfo("Success", "Registration successful.")
+            self.show_toast("Registration successful.")
             log_event(
                 category="Profile Access",
                 operation_code="REGISTER",
@@ -310,13 +330,19 @@ class UserApp:
         role = db.get_user(self.logged_in_user)["role"]
         ctk.CTkLabel(self.user_frame, text=f"Logged in as: {self.logged_in_user} ({role})", font=('Arial', 14)).pack(pady=10)
 
-        actions_frame = ctk.CTkFrame(self.user_frame)
-        actions_frame.pack(pady=20)
+        tabview = ctk.CTkTabview(self.user_frame, width=350)
+        tabview.pack(pady=10, padx=20, fill="both", expand=True)
 
         if role == "individual":
+            tabview.add("My Files")
+            tabview.add("My Account")
+
+            tab1 = tabview.tab("My Files")
+            tab2 = tabview.tab("My Account")
+
             # Drag and Drop Zone
-            self.drop_label = ctk.CTkLabel(actions_frame, text="Drag & Drop files here to upload", fg_color="gray", width=200, height=50)
-            self.drop_label.pack(pady=10)
+            self.drop_label = ctk.CTkLabel(tab1, text="Drag & Drop files here", fg_color="#34495e", text_color="white", width=250, height=80, corner_radius=10, font=('Arial', 14, 'bold'))
+            self.drop_label.pack(pady=15)
             
             try:
                 self.drop_label.drop_target_register(DND_FILES)
@@ -324,24 +350,28 @@ class UserApp:
             except Exception as e:
                 print(f"DnD registration failed: {e}")
 
-            ctk.CTkButton(actions_frame, text="Upload File", command=self.upload_file, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="View Uploaded Files", command=self.view_uploaded_files, width=200).pack(pady=5)
+            ctk.CTkButton(tab1, text="Upload File", command=self.upload_file, width=200).pack(pady=5)
+            ctk.CTkButton(tab1, text="View Uploaded Files", command=self.view_uploaded_files, width=200).pack(pady=5)
+            ctk.CTkButton(tab1, text="Share File", command=self.share_file, width=200).pack(pady=5)
+            ctk.CTkButton(tab1, text="View Shared Files", command=self.view_shared_files, width=200).pack(pady=5)
+            ctk.CTkButton(tab1, text="Search Files", command=self.search_files, width=200).pack(pady=5)
             
-            ctk.CTkButton(actions_frame, text="Change Username", command=self.change_username, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="Request Password Change", command=self.request_password_change, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="Add Team Member", command=self.add_team_member, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="Share File", command=self.share_file, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="View Notifications", command=self.view_notifications, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="View Shared Files", command=self.view_shared_files, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="Search Files", command=self.search_files, width=200).pack(pady=5)
-        elif role == "admin":
-            ctk.CTkButton(actions_frame, text="Admin Dashboard", command=self.show_admin_dashboard, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="Manage User Profiles", command=self.manage_profiles, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="Set Storage Limits", command=self.set_storage_limits, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="Approve Password Change Requests", command=self.approve_password_requests, width=200).pack(pady=5)
-            ctk.CTkButton(actions_frame, text="Search Users/Logs", command=self.search_system, width=200).pack(pady=5)
+            ctk.CTkButton(tab2, text="Change Username", command=self.change_username, width=200).pack(pady=5)
+            ctk.CTkButton(tab2, text="Request Password Change", command=self.request_password_change, width=200).pack(pady=5)
+            ctk.CTkButton(tab2, text="Add Team Member", command=self.add_team_member, width=200).pack(pady=5)
+            ctk.CTkButton(tab2, text="View Notifications", command=self.view_notifications, width=200).pack(pady=5)
 
-        ctk.CTkButton(actions_frame, text="Logout", command=self.logout, width=200).pack(pady=5)
+        elif role == "admin":
+            tabview.add("Admin Panel")
+            tab1 = tabview.tab("Admin Panel")
+            
+            ctk.CTkButton(tab1, text="Admin Dashboard", command=self.show_admin_dashboard, width=200).pack(pady=5)
+            ctk.CTkButton(tab1, text="Manage User Profiles", command=self.manage_profiles, width=200).pack(pady=5)
+            ctk.CTkButton(tab1, text="Set Storage Limits", command=self.set_storage_limits, width=200).pack(pady=5)
+            ctk.CTkButton(tab1, text="Approve Password Change Requests", command=self.approve_password_requests, width=200).pack(pady=5)
+            ctk.CTkButton(tab1, text="Search Users/Logs", command=self.search_system, width=200).pack(pady=5)
+
+        ctk.CTkButton(self.user_frame, text="Logout", command=self.logout, width=200, fg_color="#e74c3c", hover_color="#c0392b").pack(pady=15)
 
         self.login_frame.pack_forget()
         self.user_frame.pack(fill="both", expand=True)
@@ -421,7 +451,7 @@ class UserApp:
             versioned_name = f"{name}_{timestamp}{ext}"
             versioned_path = os.path.join(versions_directory, versioned_name)
             shutil.move(dest_path, versioned_path)
-            messagebox.showinfo("Versioned", "Existing file was saved as a previous version.")
+            self.show_toast("Existing file saved as a version.")
 
         file_size = os.path.getsize(file_path) / (1024 * 1024)
         total_size = sum(
@@ -449,7 +479,7 @@ class UserApp:
         shutil.copy2(file_path, dest_path)
         if encrypt_file(dest_path):
             db.add_file(self.logged_in_user, file_name)
-            messagebox.showinfo("Success", "File uploaded and encrypted successfully.")
+            self.show_toast("File uploaded and encrypted.")
         else:
             os.remove(dest_path)
             messagebox.showerror("Error", "Failed to encrypt the file during upload.")
