@@ -245,7 +245,12 @@ class UserApp:
     def register(self):
         username = self.username_entry.get()
         password = self.password_entry.get()
-        role = simpledialog.askstring("Role Selection", "Enter role (individual/admin):").lower()
+        role = simpledialog.askstring("Role Selection", "Enter role (individual/admin):")
+
+        if not role:
+            return
+
+        role = role.lower()
 
         if role not in ["individual", "admin"]:
             messagebox.showerror("Error", "Invalid role. Please choose 'individual' or 'admin'.")
