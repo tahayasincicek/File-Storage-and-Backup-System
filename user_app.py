@@ -334,6 +334,7 @@ class UserApp:
             ctk.CTkButton(actions_frame, text="View Notifications", command=self.view_notifications, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="View Shared Files", command=self.view_shared_files, width=200).pack(pady=5)
         elif role == "admin":
+            ctk.CTkButton(actions_frame, text="Admin Dashboard", command=self.show_admin_dashboard, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="Manage User Profiles", command=self.manage_profiles, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="Set Storage Limits", command=self.set_storage_limits, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="Approve Password Change Requests", command=self.approve_password_requests, width=200).pack(pady=5)
@@ -762,8 +763,63 @@ class UserApp:
         self.user_frame.pack_forget()
         self.login_frame.pack()
         
+    def show_admin_dashboard(self):
+        dash_window = tk.Toplevel(self.root)
+        dash_window.title("Admin Dashboard")
+        dash_window.geometry("800x700")
 
-
+        users = db.get_all_usernames()
+        total_users = len(users)
+        
+        user_file_counts = {}
+        for u in users:
+            user_file_counts[u] = len(db.get_files(u))
+            
+        total_files = sum(user_file_counts.values())
+        
+        stats_frame = tk.Frame(dash_window)
+        stats_frame.pack(pady=10)
+        
+        tk.Label(stats_frame, text=f"Total Users: {total_users}", font=('Arial', 14)).grid(row=0, column=0, padx=20)
+        tk.Label(stats_frame, text=f"Total Files: {total_files}", font=('Arial', 14)).grid(row=0, column=1, padx=20)
+        
+        import matplotlib.pyplot as plt
+        from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+        
+        if total_files > 0:
+            fig, ax = plt.subplots(figsize=(6, 4))
+            labels = list(user_file_counts.keys())
+            sizes = list(user_file_counts.values())
+            
+            labels = [l for i, l in enumerate(labels) if sizes[i] > 0]
+            sizes = [s for s in sizes if s > 0]
+            
+            ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
+            ax.axis('equal')
+            
+            canvas = FigureCanvasTkAgg(fig, master=dash_window)
+            canvas.draw()
+            canvas.get_tk_widget().pack(pady=10)
+        else:
+            tk.Label(dash_window, text="No files uploaded yet.", font=('Arial', 12)).pack(pady=20)
+            
+        anomalies_frame = tk.Frame(dash_window)
+        anomalies_frame.pack(fill="both", expand=True, padx=20, pady=10)
+        tk.Label(anomalies_frame, text="Recent Log Anomalies", font=('Arial', 12, 'bold')).pack(anchor="w")
+        
+        anomalies = log_analyzer.analyze_all_logs()
+        listbox = tk.Listbox(anomalies_frame, width=100, height=8)
+        listbox.pack(side="left", fill="both", expand=True)
+        scrollbar = tk.Scrollbar(anomalies_frame, orient="vertical")
+        scrollbar.config(command=listbox.yview)
+        scrollbar.pack(side="right", fill="y")
+        listbox.config(yscrollcommand=scrollbar.set)
+        
+        if not anomalies:
+            listbox.insert(tk.END, "No anomalies detected.")
+        else:
+            for a in anomalies[-10:]:
+                listbox.insert(tk.END, str(a))
 
     def manage_profiles(self):
         manage_window = tk.Toplevel(self.root)
