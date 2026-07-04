@@ -86,7 +86,7 @@ log_keywords = {
     "FILE_MODIFIED": ["ERROR", "FAILED"],
     "UPLOAD_FILE": ["SUCCESS"],
     "SHARE_FILE": ["FAILED: Duplicate share attempt"],
-    "REQUEST_PASSWORD_CHANGE": ["SUCCES"],
+    "REQUEST_PASSWORD_CHANGE": ["SUCCESS"],
 }
 
 # Tüm log dosyalarını analiz et
