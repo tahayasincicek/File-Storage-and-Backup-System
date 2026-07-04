@@ -333,11 +333,13 @@ class UserApp:
             ctk.CTkButton(actions_frame, text="Share File", command=self.share_file, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="View Notifications", command=self.view_notifications, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="View Shared Files", command=self.view_shared_files, width=200).pack(pady=5)
+            ctk.CTkButton(actions_frame, text="Search Files", command=self.search_files, width=200).pack(pady=5)
         elif role == "admin":
             ctk.CTkButton(actions_frame, text="Admin Dashboard", command=self.show_admin_dashboard, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="Manage User Profiles", command=self.manage_profiles, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="Set Storage Limits", command=self.set_storage_limits, width=200).pack(pady=5)
             ctk.CTkButton(actions_frame, text="Approve Password Change Requests", command=self.approve_password_requests, width=200).pack(pady=5)
+            ctk.CTkButton(actions_frame, text="Search Users/Logs", command=self.search_system, width=200).pack(pady=5)
 
         ctk.CTkButton(actions_frame, text="Logout", command=self.logout, width=200).pack(pady=5)
 
@@ -820,6 +822,50 @@ class UserApp:
         else:
             for a in anomalies[-10:]:
                 listbox.insert(tk.END, str(a))
+                
+    def search_files(self):
+        query = simpledialog.askstring("Search Files", "Enter filename to search:")
+        if not query: return
+        files = db.get_files(self.logged_in_user)
+        results = [f for f in files if query.lower() in f.lower()]
+        if not results:
+            messagebox.showinfo("Search Results", "No files found matching your query.")
+            return
+        
+        results_str = "\n".join(results)
+        messagebox.showinfo("Search Results", f"Found files:\n\n{results_str}")
+
+    def search_system(self):
+        target = simpledialog.askstring("Search", "Search in (users/logs):")
+        if not target: return
+        target = target.lower()
+        if target not in ["users", "logs"]: 
+            messagebox.showerror("Error", "Invalid option.")
+            return
+            
+        query = simpledialog.askstring("Search", f"Enter query for {target}:")
+        if not query: return
+        
+        if target == "users":
+            users = db.get_all_usernames()
+            results = [u for u in users if query.lower() in u.lower()]
+            if not results:
+                messagebox.showinfo("Search Results", "No users found.")
+            else:
+                messagebox.showinfo("Search Results", "Users found:\n\n" + "\n".join(results))
+        elif target == "logs":
+            anomalies = log_analyzer.analyze_all_logs()
+            results = [str(a) for a in anomalies if query.lower() in str(a).lower()]
+            if not results:
+                messagebox.showinfo("Search Results", "No logs found.")
+            else:
+                win = tk.Toplevel(self.root)
+                win.title("Log Search Results")
+                win.geometry("600x400")
+                lb = tk.Listbox(win, width=100, height=15)
+                lb.pack(fill="both", expand=True, padx=10, pady=10)
+                for r in results:
+                    lb.insert(tk.END, r)
 
     def manage_profiles(self):
         manage_window = tk.Toplevel(self.root)
