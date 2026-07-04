@@ -1,4 +1,5 @@
 import json
+from database import db
 import os
 
 # JSON dosyasından kullanıcı verilerini yükleme
@@ -108,23 +109,19 @@ def notify_anomaly(user_data, anomalies):
             log_file, count, keyword, username = anomaly
             if username in user_data:
                 notification = f"Anomaly detected in {log_file}: {count} instances of '{keyword}' found."
-                user_data[username]["notifications"].append(notification)
+                db.add_notification(username, notification)
 
         elif len(anomaly) == 3:  # Yetkisiz paylaşım anormallikleri
             log_file, username, file_info = anomaly
             if username in user_data:
                 notification = f"Anomaly detected in {log_file}: Duplicate share attempt for file '{file_info}'."
-                user_data[username]["notifications"].append(notification)
+                db.add_notification(username, notification)
 
         elif len(anomaly) == 2:  # AUTO_SYNC anormallikleri
             log_file, detail = anomaly
             for user in user_data:
                 notification = f"Anomaly detected in {log_file}: {detail}."
-                user_data[user]["notifications"].append(notification)
-
-    # Güncellenen kullanıcı verilerini kaydedelim
-    save_user_data(user_data)
-
+                db.add_notification(user, notification)
 
 
 
@@ -174,7 +171,7 @@ def report_anomalies(anomalies, user_data):
 # Fonksiyonun çalıştırılacağı yer
 def analyze_logs_in_project():
     # Veriyi yükle
-    user_data = load_user_data()
+    user_data = db.export_to_dict()
 
     # Logları analiz et
     anomalies = analyze_all_logs()

@@ -3,7 +3,7 @@ from tkinter import messagebox, simpledialog
 from tkinter import filedialog
 from hashlib import sha256
 import os
-import json
+from database import db
 from datetime import datetime
 import shutil
 import threading
@@ -15,8 +15,8 @@ import log_analyzer
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from logger import log_event  # logger modülünü içe aktar
-# File to store user data
-data_file = "user_data.json"
+# Initialize database
+# Database initialization is handled in database.py
 files_directory = "uploaded_files"
 backup_directory = "backup_files"
 log_file = "system_logs.txt"
@@ -26,22 +26,15 @@ log_directory = "logs"
 os.makedirs(files_directory, exist_ok=True)
 os.makedirs(backup_directory, exist_ok=True)
 
-# Load existing data or initialize
-if os.path.exists(data_file):
-    with open(data_file, "r") as f:
-        user_data = json.load(f)
-else:
-    user_data = {}
-
 def save_data():
-    with open(data_file, "w") as f:
-        json.dump(user_data, f)
+    pass # Kept for compatibility during refactoring if missed anywhere
 
 def hash_password(password):
     return sha256(password.encode()).hexdigest()
 
 def analyze_logs_in_project():
     anomalies = log_analyzer.analyze_all_logs()  # Logları analiz et
+    user_data = db.export_to_dict()
     log_analyzer.report_anomalies(anomalies, user_data)  # Anomalileri raporla
     log_analyzer.notify_anomaly(user_data, anomalies)  # Bildirimleri gönder
 
@@ -223,9 +216,10 @@ class UserApp:
             messagebox.showerror("Error", "Please enter both username and password.")
             return
 
-        if username in user_data and user_data[username]["password"] == hash_password(password):
+        user_record = db.get_user(username)
+        if user_record and user_record["password"] == hash_password(password):
             self.logged_in_user = username
-            role = user_data[username]["role"]
+            role = user_record["role"]
 
             log_event(
                 category="Profile Access",
@@ -234,12 +228,12 @@ class UserApp:
                 username=username
             )
 
-            if user_data[username].get("password_request"):
+            if user_record["password_request"]:
                 new_password = simpledialog.askstring("New Password", "Please change your password:")
                 if new_password and len(new_password) >= 6:
-                    user_data[username]["password"] = hash_password(new_password)
-                    user_data[username]["password_request"] = False
-                    save_data()
+                    db.get_conn().execute('UPDATE users SET password = ?, password_request = 0 WHERE username = ?', 
+                                         (hash_password(new_password), username))
+                    db.get_conn().commit()
                     messagebox.showinfo("Success", "Password changed successfully.")
                 else:
                     messagebox.showerror("Error", "Password must be at least 6 characters long.")
@@ -275,7 +269,7 @@ class UserApp:
             )
             return
 
-        if username in user_data:
+        if db.get_user(username):
             messagebox.showerror("Error", "Username already taken.")
             log_event(
                 category="Profile Access",
@@ -292,17 +286,7 @@ class UserApp:
                 username=username
             )
         else:
-            user_data[username] = {
-                "password": hash_password(password),
-                "role": role,
-                "team_members": [],
-                "notifications": [],
-                "files": [],
-                "shared_files": [],
-                "storage_limit": 100,
-                "password_request": False
-            }
-            save_data()
+            db.add_user(username, hash_password(password), role, storage_limit=100)
             messagebox.showinfo("Success", "Registration successful.")
             log_event(
                 category="Profile Access",
@@ -317,7 +301,7 @@ class UserApp:
         for widget in self.user_frame.winfo_children():
             widget.destroy()
 
-        role = user_data[self.logged_in_user]["role"]
+        role = db.get_user(self.logged_in_user)["role"]
         ctk.CTkLabel(self.user_frame, text=f"Logged in as: {self.logged_in_user} ({role})", font=('Arial', 14)).pack(pady=10)
 
         actions_frame = ctk.CTkFrame(self.user_frame)
@@ -345,7 +329,7 @@ class UserApp:
     def change_username(self):
         new_username = simpledialog.askstring("Change Username", "Enter new username:")
 
-        if new_username in user_data:
+        if db.get_user(new_username):
             messagebox.showerror("Error", "Username already taken.")
             log_event(
                 category="User Action",
@@ -354,9 +338,8 @@ class UserApp:
                 username=self.logged_in_user
             )
         elif new_username:
-            user_data[new_username] = user_data.pop(self.logged_in_user)
+            db.update_username(self.logged_in_user, new_username)
             self.logged_in_user = new_username
-            save_data()
             messagebox.showinfo("Success", "Username changed successfully.")
             log_event(
                 category="User Action",
@@ -366,8 +349,7 @@ class UserApp:
             )
 
     def request_password_change(self):
-        user_data[self.logged_in_user]["password_request"] = True
-        save_data()
+        db.set_password_request(self.logged_in_user, True)
         messagebox.showinfo("Request Sent", "Password change request sent to the system administrator.")
         log_event(
             category="User Action",
@@ -379,11 +361,9 @@ class UserApp:
     def add_team_member(self):
         team_member = simpledialog.askstring("Add Team Member", "Enter team member's username:")
 
-        if team_member in user_data and team_member != self.logged_in_user:
-            user_data[self.logged_in_user]["team_members"].append(team_member)
-            user_data[team_member]["team_members"].append(self.logged_in_user)
-            user_data[team_member]["notifications"].append(f"{self.logged_in_user} added you as a team member.")
-            save_data()
+        if db.get_user(team_member) and team_member != self.logged_in_user:
+            db.add_team_member(self.logged_in_user, team_member)
+            db.add_notification(team_member, f"{self.logged_in_user} added you as a team member.")
             messagebox.showinfo("Success", "Team member added successfully.")
             log_event(
                 category="Team Management",
@@ -418,11 +398,11 @@ class UserApp:
             file_size = os.path.getsize(file_path) / (1024 * 1024)
             total_size = sum(
                 os.path.getsize(os.path.join(files_directory, f)) / (1024 * 1024)
-                for f in user_data[self.logged_in_user]["files"]
+                for f in db.get_files(self.logged_in_user)
                 if os.path.exists(os.path.join(files_directory, f))
             )
 
-            storage_limit = user_data[self.logged_in_user].get("storage_limit", 100)
+            storage_limit = db.get_user(self.logged_in_user)["storage_limit"]
             if total_size + file_size > storage_limit:
                 messagebox.showerror(
                     "Storage Limit Exceeded",
@@ -441,8 +421,7 @@ class UserApp:
                 with open(dest_path, "wb") as dest_file:
                     dest_file.write(src_file.read())
 
-            user_data[self.logged_in_user]["files"].append(file_name)
-            save_data()
+            db.add_file(self.logged_in_user, file_name)
             messagebox.showinfo("Success", "File uploaded successfully.")
             log_event(
                 category="File Management",
@@ -453,7 +432,7 @@ class UserApp:
             )
 
     def view_uploaded_files(self):
-        files = user_data[self.logged_in_user]["files"]
+        files = db.get_files(self.logged_in_user)
         if not files:
             messagebox.showinfo("Files", "No files uploaded.")
             return
@@ -481,23 +460,21 @@ class UserApp:
                         messagebox.showerror("Error", "File with that name already exists.")
                     else:
                         os.rename(old_path, new_path)
-                        user_data[self.logged_in_user]["files"].remove(file_to_edit)
-                        user_data[self.logged_in_user]["files"].append(new_name)
-                        save_data()
+                        pass  # updated in db directly via rename
+                        db.rename_file(self.logged_in_user, file_to_edit, new_name)
                         messagebox.showinfo("Success", f"File '{file_to_edit}' renamed to '{new_name}'.")
             elif action.lower() == "delete":
                 confirmation = messagebox.askyesno("Delete File", f"Are you sure you want to delete {file_to_edit}?")
                 if confirmation:
                     file_path = os.path.join(files_directory, file_to_edit)
                     os.remove(file_path)
-                    user_data[self.logged_in_user]["files"].remove(file_to_edit)
-                    save_data()
+                    pass  # updated in db directly via rename
                     messagebox.showinfo("Success", f"File '{file_to_edit}' deleted.")
         else:
             messagebox.showerror("Error", "File not found.")
 
     def share_file(self):
-        if not user_data[self.logged_in_user]["files"]:
+        if not db.get_files(self.logged_in_user):
             messagebox.showerror("Error", "You have no files to share.")
             log_event(
                 category="File Management",
@@ -511,7 +488,7 @@ class UserApp:
             "Share File", "Enter the name of the file you want to share:"
         )
 
-        if file_to_share not in user_data[self.logged_in_user]["files"]:
+        if file_to_share not in db.get_files(self.logged_in_user):
             messagebox.showerror("Error", "File not found in your uploads.")
             log_event(
                 category="File Management",
@@ -525,7 +502,7 @@ class UserApp:
             "Share File", "Enter the username of the recipient:"
         )
 
-        if recipient not in user_data or recipient == self.logged_in_user:
+        if not db.get_user(recipient) or recipient == self.logged_in_user:
             messagebox.showerror("Error", "Invalid recipient username.")
             log_event(
                 category="File Management",
@@ -536,7 +513,7 @@ class UserApp:
             return
 
         # Check if the recipient is a team member
-        if recipient not in user_data[self.logged_in_user]["team_members"]:
+        if recipient not in db.get_team_members(self.logged_in_user):
             messagebox.showerror(
                 "Error", "You can only share files with your team members."
             )
@@ -549,7 +526,7 @@ class UserApp:
             return
 
         # Check if the file has already been shared with the recipient
-        shared_files = user_data[self.logged_in_user].get("shared_files_history", {})
+        shared_files = db.get_shared_files_history(self.logged_in_user)
         if file_to_share in shared_files and recipient in shared_files[file_to_share]:
             messagebox.showerror("Error", f"File '{file_to_share}' has already been shared with {recipient}.")
             log_event(
@@ -564,19 +541,12 @@ class UserApp:
         if file_to_share not in shared_files:
             shared_files[file_to_share] = []
         shared_files[file_to_share].append(recipient)
-        user_data[self.logged_in_user]["shared_files_history"] = shared_files
 
         # Add file to recipient's shared files list
-        if "shared_files" not in user_data[recipient]:
-            user_data[recipient]["shared_files"] = []
 
-        user_data[recipient]["shared_files"].append(
-            {"file_name": file_to_share, "shared_by": self.logged_in_user}
-        )
+        db.share_file(self.logged_in_user, recipient, file_to_share)  #
 
         # Ensure the recipient also gets the file in their own files list
-        if file_to_share not in user_data[recipient]["files"]:
-            user_data[recipient]["files"].append(file_to_share)
 
         user_data[recipient]["notifications"].append(
             f"{self.logged_in_user} shared a file with you: {file_to_share}"
@@ -587,7 +557,6 @@ class UserApp:
             f"You shared the file '{file_to_share}' with {recipient}."
         )
 
-        save_data()
         messagebox.showinfo(
             "Success", f"File '{file_to_share}' shared with {recipient}."
         )
@@ -599,20 +568,19 @@ class UserApp:
         )
 
     def view_notifications(self):
-        notifications = user_data[self.logged_in_user]["notifications"]
+        notifications = db.get_notifications(self.logged_in_user)
         if notifications:
             messagebox.showinfo("Notifications", "\n".join(notifications))
-            user_data[self.logged_in_user]["notifications"] = []
-            save_data()
+            db.clear_notifications(self.logged_in_user)
         else:
             messagebox.showinfo("Notifications", "No new notifications.")
 
     def view_shared_files(self):
-        if not user_data[self.logged_in_user]["shared_files"]:
+        if not db.get_shared_files_received(self.logged_in_user):
             messagebox.showinfo("Shared Files", "No files have been shared with you.")
             return
 
-        shared_files = user_data[self.logged_in_user]["shared_files"]
+        shared_files = db.get_shared_files_received(self.logged_in_user)
         files_list = "\n".join(
             [f"{f['file_name']} (Shared by: {f['shared_by']})" for f in shared_files]
         )
@@ -659,7 +627,7 @@ class UserApp:
 
         user_listbox.config(yscrollcommand=scrollbar.set)
 
-        for username in user_data.keys():
+        for username in db.get_all_usernames():
             user_listbox.insert(tk.END, username)
 
         def view_profile():
@@ -675,7 +643,9 @@ class UserApp:
                 )
                 return
 
-            user_profile = user_data[selected_user]
+            user_profile = db.get_user(selected_user)
+            user_profile["team_members"] = db.get_team_members(selected_user)
+            user_profile["files"] = db.get_files(selected_user)
             profile_window = tk.Toplevel(self.root)
             profile_window.title(f"Profile: {selected_user}")
             profile_window.geometry("400x300")
@@ -724,8 +694,7 @@ class UserApp:
 
             confirm = messagebox.askyesno("Confirm Delete", f"Are you sure you want to delete {selected_user}?")
             if confirm:
-                user_data.pop(selected_user, None)
-                save_data()
+                db.delete_user(selected_user)
                 user_listbox.delete(tk.ACTIVE)
                 messagebox.showinfo("Success", "User deleted successfully.")
                 # Log: Kullanıcı başarıyla silindi
@@ -769,7 +738,7 @@ class UserApp:
 
         user_listbox.config(yscrollcommand=scrollbar.set)
 
-        for username in user_data.keys():
+        for username in db.get_all_usernames():
             user_listbox.insert(tk.END, username)
 
         def set_limit():
@@ -787,8 +756,7 @@ class UserApp:
 
             limit = simpledialog.askinteger("Set Limit", f"Enter storage limit for {selected_user} (MB):")
             if limit is not None and limit > 0:
-                user_data[selected_user]["storage_limit"] = limit
-                save_data()
+                db.set_storage_limit(selected_user, limit)
                 messagebox.showinfo("Success", "Storage limit updated successfully.")
                 # Log: Storage limit başarıyla güncellendi
                 log_event(
@@ -829,7 +797,8 @@ class UserApp:
 
         requests_listbox.config(yscrollcommand=scrollbar.set)
 
-        for username, data in user_data.items():
+        for username in db.get_all_usernames():
+            data = db.get_user(username)
             if data.get("password_request"):
                 requests_listbox.insert(tk.END, username)
 
@@ -842,7 +811,6 @@ class UserApp:
             user_data[selected_user]["notifications"].append(
                 "Your password change request has been approved. You will be prompted to change your password on next login."
             )
-            save_data()
             requests_listbox.delete(tk.ACTIVE)
             messagebox.showinfo("Success", f"Password change request for {selected_user} approved.")
             log_event(
