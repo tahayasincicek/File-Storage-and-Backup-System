@@ -56,17 +56,16 @@ This system is designed to enhance file security, provide real-time log analysis
 
 ## 🖥️ Interface
 
-- Simple GUI interface created with `tkinter`
+- Modern GUI interface created with `customtkinter`
 - Dynamic login system with input validation
 - Real-time update display for backup and anomaly events
 - Notifications and alerts displayed to relevant profiles
-- No design color/style constraints
 
 ---
 
 ## 🗄️ File Backup & Synchronization Module
 
-- **Directory Monitoring**: Watches a source directory for changes
+- **Directory Monitoring**: Watches a source directory for changes using `watchdog`
 - **Backup**: Copies files to a backup directory using `threading`
 - **Synchronization**: Ensures files in source and destination directories match
 - **Logging**: Logs include:
@@ -111,14 +110,29 @@ This system is designed to enhance file security, provide real-time log analysis
 
 - 🐍 **Python 3.x**
 - 📦 Libraries:
-  - `tkinter` – GUI
+  - `customtkinter` – Modern GUI framework
   - `hashlib` – Password hashing
   - `os`, `shutil`, `threading`, `time` – File ops & concurrency
-  - `logging` – Log creation & management
-  - `schedule` – Task scheduling
+  - `watchdog` – Directory change monitoring
+  - `json` – Data storage & management
 - 🧪 Custom anomaly detection algorithms
 
 ---
+
+## 📂 Folder Structure
+
+```
+File-Storage-and-Backup-System/
+├── user_app.py            # Main application (GUI & logic)
+├── logger.py              # Event logging module
+├── log_analyzer.py        # Log analysis & anomaly detection
+├── user_data.json         # User data storage
+├── anomaly_report.txt     # Generated anomaly reports
+├── uploaded_files/        # Directory for uploaded files
+├── backup_files/          # Directory for backup copies
+├── logs/                  # Categorized log files
+└── README.md
+```
 
 ---
 
@@ -126,14 +140,25 @@ This system is designed to enhance file security, provide real-time log analysis
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/tahayasincicek/file-storage-backup-system.git
-   cd file-storage-backup-system
+   git clone https://github.com/tahayasincicek/File-Storage-and-Backup-System.git
+   cd File-Storage-and-Backup-System
+   ```
 
-2. Install Dependencies
+2. **Install Dependencies**
 
-Make sure you have Python 3.x installed on your system. Then, install the required dependencies using the command below:
+   Make sure you have Python 3.x installed on your system. Then, install the required dependencies:
 
-```bash
-pip install -r requirements.txt
-python main.py
+   ```bash
+   pip install customtkinter watchdog
+   ```
 
+3. **Run the Application**
+   ```bash
+   python user_app.py
+   ```
+
+---
+
+## 📎 License
+
+This project is open source and available for educational purposes.
