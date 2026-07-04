@@ -371,8 +371,7 @@ class UserApp:
                 category="Team Management",
                 operation_code="ADD_TEAM_MEMBER",
                 status_code="SUCCESS",
-                username=self.logged_in_user,
-                details=f"Added team member: {team_member}"
+                username=self.logged_in_user
             )
         else:
             messagebox.showerror("Error", "Invalid username.")
