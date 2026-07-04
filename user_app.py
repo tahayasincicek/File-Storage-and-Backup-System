@@ -20,12 +20,14 @@ from logger import log_event  # logger modülünü içe aktar
 # Database initialization is handled in database.py
 files_directory = "uploaded_files"
 backup_directory = "backup_files"
+versions_directory = "versions"
 log_file = "system_logs.txt"
 log_directory = "logs"
 
 # Ensure necessary directories exist
 os.makedirs(files_directory, exist_ok=True)
 os.makedirs(backup_directory, exist_ok=True)
+os.makedirs(versions_directory, exist_ok=True)
 
 def save_data():
     pass # Kept for compatibility during refactoring if missed anywhere
@@ -387,14 +389,13 @@ class UserApp:
             dest_path = os.path.join(files_directory, file_name)
 
             if os.path.exists(dest_path):
-                messagebox.showerror("Error", "File already exists.")
-                log_event(
-                    category="File Management",
-                    operation_code="UPLOAD_FILE",
-                    status_code="FAILED: File already exists",
-                    username=self.logged_in_user
-                )
-                return
+                # Versioning logic
+                timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+                name, ext = os.path.splitext(file_name)
+                versioned_name = f"{name}_{timestamp}{ext}"
+                versioned_path = os.path.join(versions_directory, versioned_name)
+                shutil.move(dest_path, versioned_path)
+                messagebox.showinfo("Versioned", "Existing file was saved as a previous version.")
 
             file_size = os.path.getsize(file_path) / (1024 * 1024)
             total_size = sum(
@@ -448,7 +449,7 @@ class UserApp:
             return
 
         if file_to_edit in files:
-            action = simpledialog.askstring("File Action", f"Choose an action for {file_to_edit} (download/edit/delete):")
+            action = simpledialog.askstring("File Action", f"Choose an action for {file_to_edit} (download/edit/delete/versions):")
 
             if not action:
                 return
@@ -486,6 +487,28 @@ class UserApp:
                         os.remove(file_path)
                     db.remove_file(self.logged_in_user, file_to_edit)
                     messagebox.showinfo("Success", f"File '{file_to_edit}' deleted.")
+            elif action == "versions":
+                name, ext = os.path.splitext(file_to_edit)
+                versions = []
+                for f in os.listdir(versions_directory):
+                    if f.startswith(name + "_") and f.endswith(ext):
+                        versions.append(f)
+                
+                if not versions:
+                    messagebox.showinfo("Versions", "No previous versions found for this file.")
+                    return
+                
+                versions_list = "\n".join(versions)
+                version_to_restore = simpledialog.askstring("Restore Version", f"Available versions:\n{versions_list}\n\nEnter version to restore (or cancel):")
+                if version_to_restore in versions:
+                    current_path = os.path.join(files_directory, file_to_edit)
+                    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+                    backup_current = os.path.join(versions_directory, f"{name}_{timestamp}{ext}")
+                    shutil.move(current_path, backup_current)
+                    
+                    restore_path = os.path.join(versions_directory, version_to_restore)
+                    shutil.copy2(restore_path, current_path)
+                    messagebox.showinfo("Success", f"Restored {file_to_edit} from {version_to_restore}.")
         else:
             messagebox.showerror("Error", "File not found.")
 
